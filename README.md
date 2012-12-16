@@ -1,7 +1,5 @@
 # powertip-rails
 
-[@ken_c_lo](https://twitter.com/ken_c_lo)さんの[ズルいデザインテクニック](https://speakerdeck.com/ken_c_lo/zurui-design)のMixinをまとめたGemです。
-
 ## Installation
 
 Add this to your `Gemfile`:
@@ -10,7 +8,7 @@ Add this to your `Gemfile`:
 group :assets do
   gem 'sass-rails'
   gem 'compass-rails'
-  gem 'zurui-sass-rails'
+  gem 'powertip-rails'
 end
 ```
 
