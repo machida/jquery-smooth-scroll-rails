@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/smooth-scroll/version', __FILE__)
+require File.expand_path('../lib/smooth-scroll-rails/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["machida"]
@@ -11,9 +11,9 @@ Gem::Specification.new do |gem|
   gem.files         = Dir["{lib,vendor}/**/*"] + ["MIT-LICENSE", "README.md"]
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.name          = "smooth-scroll"
+  gem.name          = "smooth-scroll-rails"
   gem.require_paths = ["lib"]
-  gem.version       = SmoothScroll::VERSION
+  gem.version       = SmoothScrollRails::VERSION
 
   gem.add_dependency "railties", "~> 3.1"
 end
