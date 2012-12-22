@@ -1,11 +1,11 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/smooth-scroll-rails/version', __FILE__)
+require File.expand_path('../lib/jquey-smooth-scroll-rails/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["machida"]
   gem.email         = ["machida@fjord.jp"]
   gem.description   = %q{SmoothScroll(A jQuery plugin that smooth scroll.) for rails.}
-  gem.summary       = %q{smooth-scroll for rails}
+  gem.summary       = %q{jquey-smooth-scroll for rails}
   gem.homepage      = "http://fjord.jp"
 
   gem.files         = Dir["{lib,vendor}/**/*"] + ["MIT-LICENSE", "README.md"]
@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "smooth-scroll-rails"
   gem.require_paths = ["lib"]
-  gem.version       = SmoothScrollRails::VERSION
+  gem.version       = JqueySmoothScrollRails::VERSION
 
   gem.add_dependency "railties", "~> 3.1"
 end
