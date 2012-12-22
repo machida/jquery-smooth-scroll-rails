@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.files         = Dir["{lib,vendor}/**/*"] + ["MIT-LICENSE", "README.md"]
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.name          = "smooth-scroll-rails"
+  gem.name          = "jquery-smooth-scroll-rails"
   gem.require_paths = ["lib"]
   gem.version       = JqueySmoothScrollRails::VERSION
 
