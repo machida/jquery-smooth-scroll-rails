@@ -5,7 +5,7 @@ Gem::Specification.new do |gem|
   gem.authors       = ["machida"]
   gem.email         = ["machida@fjord.jp"]
   gem.description   = %q{SmoothScroll(A jQuery plugin that smooth scroll.) for rails.}
-  gem.summary       = %q{jquey-smooth-scroll for rails}
+  gem.summary       = %q{jquery-smooth-scroll for rails}
   gem.homepage      = "http://fjord.jp"
 
   gem.files         = Dir["{lib,vendor}/**/*"] + ["MIT-LICENSE", "README.md"]
